@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/paddl-design-2/static/css/main.ffa40244.chunk.css",
+    "main.js": "/paddl-design-2/static/js/main.eb6f912b.chunk.js",
+    "main.js.map": "/paddl-design-2/static/js/main.eb6f912b.chunk.js.map",
+    "runtime-main.js": "/paddl-design-2/static/js/runtime-main.eacbba43.js",
+    "runtime-main.js.map": "/paddl-design-2/static/js/runtime-main.eacbba43.js.map",
+    "static/js/2.20aacc20.chunk.js": "/paddl-design-2/static/js/2.20aacc20.chunk.js",
+    "static/js/2.20aacc20.chunk.js.map": "/paddl-design-2/static/js/2.20aacc20.chunk.js.map",
+    "index.html": "/paddl-design-2/index.html",
+    "precache-manifest.4306cb344b16ead97548ff1bc5404e74.js": "/paddl-design-2/precache-manifest.4306cb344b16ead97548ff1bc5404e74.js",
+    "service-worker.js": "/paddl-design-2/service-worker.js",
+    "static/css/main.ffa40244.chunk.css.map": "/paddl-design-2/static/css/main.ffa40244.chunk.css.map",
+    "static/js/2.20aacc20.chunk.js.LICENSE.txt": "/paddl-design-2/static/js/2.20aacc20.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/paddl-design-2/static/media/icon-clock.9f3826ba.svg",
+    "static/media/icon-category.png": "/paddl-design-2/static/media/icon-category.c6acdec0.png",
+    "static/media/logo.png": "/paddl-design-2/static/media/logo.281e5f7b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eacbba43.js",
+    "static/js/2.20aacc20.chunk.js",
+    "static/css/main.ffa40244.chunk.css",
+    "static/js/main.eb6f912b.chunk.js"
+  ]
+}
