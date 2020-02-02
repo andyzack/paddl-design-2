@@ -1,0 +1,95 @@
+@import "./tachyons/modules";
+
+.bg-image {
+  background-image: url(http://mrmrs.github.io/photos/u/011.jpg)
+}
+
+.bg-gradient-blue {
+  background: linear-gradient(to bottom,  rgba(31, 133, 243, 0.96) 0%,rgba(22,31,98,0.96) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.bg-gradient-blue-content {
+  background: linear-gradient(to bottom,  rgba(10,94,182,0.9) 0%,rgba(9,76,158,0.9) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  min-height: 296px;
+}
+
+.icon-clock:before {
+  background-image: url(.././images/icon-clock.svg); 
+}
+
+.icon-arrow-up:before {
+  background-image: url(.././images/icon-arrow-up.svg);
+  fill: green($color: #3dc27f)
+}
+
+.icon-arrow-up, .icon-clock {
+  &:before {
+    content: ''; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 28px; height: 28px;
+    float: left;
+  }
+}
+
+.icon-category {
+  max-width: 126px;
+  max-height: 126px;
+}
+
+.progress-bar {
+  span {
+    width: 3px;
+    height: 3px;
+  }
+}
+
+.primary-button {
+  width: 220px;
+}
+
+.modal {
+  z-index:0;
+  transform:scale(1);
+  animation: moveUp .5s cubic-bezier(0.165, 0.840, 0.440, 1.000) forwards;
+
+  &.out {
+    animation: moveDown .5s cubic-bezier(0.165, 0.840, 0.440, 1.000) forwards;
+  }
+}
+
+@keyframes moveUp {
+  0% {
+    transform:translateY(1200px);
+  }
+  100% {
+    transform:translateY(0);
+  }
+}
+
+@keyframes slideUpLarge {
+  0% {
+    transform:translateY(0%);
+  }
+  100% {
+    transform:translateY(-100%);
+  }
+}
+
+@keyframes moveDown {
+  0% {
+    transform:translateY(0px);
+  }
+  100% {
+    transform:translateY(150px);
+  }
+}
+
+@keyframes slideDownLarge {
+  0% {
+    transform:translateY(-100%);
+  }
+  100% {
+    transform:translateY(0%);
+  }
+}

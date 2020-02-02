@@ -1,0 +1,41 @@
+
+// Converted Variables
+
+
+/*
+
+   UTILITY: CUSTOM VARIABLES AND DEFAULT COLORS
+   Its just an alias (easy-to-remember names, can be used to match primary color with engine theme)
+
+   Usage: Following sample will default to respective colors
+
+	 $primary: $light-green;
+	 $secondary: $dark-green;
+	 $complimentary: $silver;
+
+   Docs: http://tachyons.io/docs/typography/line-height
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
+
+*/
+
+
+// CUSTOM VARIABLES AND DEFAULT COLORS
+$primary: $red !default;
+$secondary: $blue !default;
+$complimentary: $green !default;
+
+$primary-start: $light-red !default;
+$secondary-start: $light-blue !default;
+$complimentary-start: $light-green !default;
+
+$primary-end: $dark-red !default;
+$secondary-end: $dark-blue !default;
+$complimentary-end: $dark-green !default;
+
+
+// Custom Media Query Variables
+

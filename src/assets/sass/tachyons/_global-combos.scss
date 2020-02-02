@@ -1,0 +1,126 @@
+
+// Converted Variables
+
+
+/*
+
+   UTILITY: SET OF ALL CLASS COMBINATIONS FOR PRIMARY, SECONDARY AND COMPLIMENTARY
+
+   Default colors using custom variables 
+
+   Its easy-to-remember class names, inline with tachyons standards
+   This utility can be used to match primary color with engine theme
+
+   Usage: aq-primary, bg-aq-primary, b--aq-primary
+
+   Docs: http://tachyons.io/docs/typography/line-height
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
+
+*/
+
+// SET OF ALL CLASS COMBINATIONS FOR PRIMARY, SECONDARY AND COMPLIMENTARY
+
+// AQ COLOR PALETTE
+$colours: (
+  'aq-primary': $primary,
+  'aq-secondary': $secondary,
+  'aq-complimentary': $complimentary,
+);
+
+@each $name, $hex in $colours {
+  // TEXT-COLORS
+  .#{$name} { color: $hex; }
+
+  // BACKGROUND-COLORS
+  .bg-#{$name} { background-color: $hex; }
+
+  // BORDER-COLORS
+  .b--#{$name} { border-color: $hex; }
+
+  // SVG FILL
+  .fill-#{$name} { fill: $hex; }
+  
+  // SKINS PSEUDO
+  .hover-#{$name}:hover,
+  .hover-#{$name}:focus { color: $hex; }
+  .hover-bg-#{$name}:hover,
+  .hover-bg-#{$name}:focus { background-color: $hex; }
+  
+  .bg-#{$name}-90 { background-color: transparentize($hex,.9); }
+  .bg-#{$name}-80 { background-color: transparentize($hex,.8); }
+  .bg-#{$name}-70 { background-color: transparentize($hex,.7); }
+  .bg-#{$name}-60 { background-color: transparentize($hex,.6); }
+  .bg-#{$name}-50 { background-color: transparentize($hex,.5); }
+  .bg-#{$name}-40 { background-color: transparentize($hex,.4); }
+  .bg-#{$name}-30 { background-color: transparentize($hex,.3); }
+  .bg-#{$name}-20 { background-color: transparentize($hex,.2); }
+  .bg-#{$name}-10 { background-color: transparentize($hex,.1); }
+  .bg-#{$name}-05 { background-color: transparentize($hex,.05); }
+  .bg-#{$name}-025 { background-color: transparentize($hex,.025); }
+  .bg-#{$name}-0125 { background-color: transparentize($hex,.0125); } 
+
+}
+
+// GRADIENT
+.gradient-aq-primary { 
+  background-image: linear-gradient($primary-start, $primary-end);
+}
+.gradient-aq-primary-reversed { 
+  background-image: linear-gradient($primary-end, $primary-start);
+}
+.gradient-aq-secondary { 
+  background-image: linear-gradient($secondary-start, $secondary-end);
+}
+.gradient-aq-secondary-reversed { 
+  background-image: linear-gradient($secondary-end, $secondary-start);
+}
+.gradient-aq-complimentary { 
+  background-image: linear-gradient($complimentary-start, $complimentary-end);
+}
+.gradient-aq-complimentary-reversed { 
+  background-image: linear-gradient($complimentary-end, $complimentary-start);
+}
+
+.gradient-h-aq-primary { 
+  background-image: linear-gradient(to right, $primary-start, $primary-end);
+}
+.gradient-h-aq-primary-reversed { 
+  background-image: linear-gradient(to right, $primary-end, $primary-start);
+}
+.gradient-h-aq-secondary { 
+  background-image: linear-gradient(to right, $secondary-start, $secondary-end);
+}
+.gradient-h-aq-secondary-reversed { 
+  background-image: linear-gradient(to right, $secondary-end, $secondary-start);
+}
+.gradient-h-aq-complimentary { 
+  background-image: linear-gradient(to right, $complimentary-start, $complimentary-end);
+}
+.gradient-h-aq-complimentary-reversed { 
+  background-image: linear-gradient(to right, $complimentary-end, $complimentary-start);
+}
+
+// TEXT SHADOW
+.tshadow { text-shadow: 1px 1px 3px rgba($dark-gray,0.6); }
+.tshadow-90 { text-shadow: 1px 1px 3px rgba($dark-gray,.9); }
+.tshadow-80 { text-shadow: 1px 1px 3px rgba($dark-gray,.8); }
+.tshadow-70 { text-shadow: 1px 1px 3px rgba($dark-gray,.7); }
+.tshadow-60 { text-shadow: 1px 1px 3px rgba($dark-gray,.6); }
+.tshadow-50 { text-shadow: 1px 1px 3px rgba($dark-gray,.5); }
+.tshadow-40 { text-shadow: 1px 1px 3px rgba($dark-gray,.4); }
+.tshadow-30 { text-shadow: 1px 1px 3px rgba($dark-gray,.3); }
+.tshadow-20 { text-shadow: 1px 1px 3px rgba($dark-gray,.2); }
+.tshadow-10 { text-shadow: 1px 1px 3px rgba($dark-gray,.1); }
+.tshadow-05 { text-shadow: 1px 1px 3px rgba($dark-gray,.05); }
+.tshadow-025 { text-shadow: 1px 1px 3px rgba($dark-gray,.025); }
+.tshadow-0125 { text-shadow: 1px 1px 3px rgba($dark-gray,.0125); }
+
+
+// FILL COLORS
+@import "global-fill-colors";
+
+// Custom Media Query Variables

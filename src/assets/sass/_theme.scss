@@ -1,0 +1,23 @@
+// COLOR THEME
+$navy: #161f62;
+$dark-blue: #154390;
+$blue: #0a5eb6;
+$light-blue: #aad1f8;
+$lightest-blue: #cdecff;
+$washed-blue: #f6fffe;
+$purple: #3e3497;
+$light-purple: #b2b8f3;
+
+$primary: $dark-blue;
+$secondary: $lightest-blue;
+$complimentary: $light-purple;
+
+$bg-gradient-blue: $blue;
+$bg-gradient-navy: $navy;
+
+// CUSTOM FONTS
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400,700,800&display=swap);
+
+$open-sans: 'Open Sans', sans-serif;
+
+.open-sans 	{ font-family: $open-sans; 	}

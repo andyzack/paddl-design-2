@@ -1,0 +1,93 @@
+
+// Converted Variables
+
+
+// Custom Media Query Variables
+
+
+/*
+
+   SVG fillS
+   Docs: http://tachyons.io/docs/themes/borders/
+
+   SVG fills can be used to extend the base
+   SVG classes ba,bt,bb,br,bl found in the _borders.css file.
+
+   The base fill class by default will set the fill of the border
+   to that of the current text fill. These classes are for the cases
+   where you desire for the text and SVG fills to be different.
+
+   Base:
+     b = border
+
+   Modifiers:
+   --fill-name = each fill variable name is also a border fill name
+
+*/
+
+.fill-black {        fill: $black; }
+.fill-near-black {   fill: $near-black; }
+.fill-dark-gray {    fill: $dark-gray; }
+.fill-mid-gray {     fill: $mid-gray; }
+.fill-gray {         fill: $gray; }
+.fill-silver {       fill: $silver; }
+.fill-light-silver { fill: $light-silver; }
+.fill-moon-gray {    fill: $moon-gray; }
+.fill-light-gray {   fill: $light-gray; }
+.fill-near-white {   fill: $near-white; }
+.fill-white {        fill: $white; }
+
+.fill-white-90 {   fill: $white-90; }
+.fill-white-80 {   fill: $white-80; }
+.fill-white-70 {   fill: $white-70; }
+.fill-white-60 {   fill: $white-60; }
+.fill-white-50 {   fill: $white-50; }
+.fill-white-40 {   fill: $white-40; }
+.fill-white-30 {   fill: $white-30; }
+.fill-white-20 {   fill: $white-20; }
+.fill-white-10 {   fill: $white-10; }
+.fill-white-05 {   fill: $white-05; }
+.fill-white-025 {   fill: $white-025; }
+.fill-white-0125 {   fill: $white-0125; }
+
+.fill-black-90 {   fill: $black-90; }
+.fill-black-80 {   fill: $black-80; }
+.fill-black-70 {   fill: $black-70; }
+.fill-black-60 {   fill: $black-60; }
+.fill-black-50 {   fill: $black-50; }
+.fill-black-40 {   fill: $black-40; }
+.fill-black-30 {   fill: $black-30; }
+.fill-black-20 {   fill: $black-20; }
+.fill-black-10 {   fill: $black-10; }
+.fill-black-05 {   fill: $black-05; }
+.fill-black-025 {   fill: $black-025; }
+.fill-black-0125 {   fill: $black-0125; }
+
+.fill-dark-red { fill: $dark-red; }
+.fill-red { fill: $red; }
+.fill-light-red { fill: $light-red; }
+.fill-orange { fill: $orange; }
+.fill-gold { fill: $gold; }
+.fill-yellow { fill: $yellow; }
+.fill-light-yellow { fill: $light-yellow; }
+.fill-purple { fill: $purple; }
+.fill-light-purple { fill: $light-purple; }
+.fill-dark-pink { fill: $dark-pink; }
+.fill-hot-pink { fill: $hot-pink; }
+.fill-pink { fill: $pink; }
+.fill-light-pink { fill: $light-pink; }
+.fill-dark-green { fill: $dark-green; }
+.fill-green { fill: $green; }
+.fill-light-green { fill: $light-green; }
+.fill-navy { fill: $navy; }
+.fill-dark-blue { fill: $dark-blue; }
+.fill-blue { fill: $blue; }
+.fill-light-blue { fill: $light-blue; }
+.fill-lightest-blue { fill: $lightest-blue; }
+.fill-washed-blue { fill: $washed-blue; }
+.fill-washed-green { fill: $washed-green; }
+.fill-washed-yellow { fill: $washed-yellow; }
+.fill-washed-red { fill: $washed-red; }
+
+.fill-transparent { fill: $transparent; }
+.fill-inherit { fill: inherit; }
