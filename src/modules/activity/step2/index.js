@@ -46,6 +46,8 @@ function Step2(props) {
             </div>
           </div>
 
+          <div className="h2 mt4 mb0 f5 light-purple">Progress updated</div>
+
         </div>
       </section>
     </div>
