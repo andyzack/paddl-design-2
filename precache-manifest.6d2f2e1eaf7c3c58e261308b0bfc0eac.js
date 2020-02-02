@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b22b33bab991935aebf9d0e3f20496f9",
+    "revision": "c2577612bf8b5e6c2bcb7a94a5a5c14e",
     "url": "/paddl-design-2/index.html"
   },
   {
-    "revision": "fdd519fc75c355216b62",
+    "revision": "461944970a3eeaa53631",
     "url": "/paddl-design-2/static/css/main.ffa40244.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/paddl-design-2/static/js/2.20aacc20.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fdd519fc75c355216b62",
-    "url": "/paddl-design-2/static/js/main.eb6f912b.chunk.js"
+    "revision": "461944970a3eeaa53631",
+    "url": "/paddl-design-2/static/js/main.1dce3cb0.chunk.js"
   },
   {
     "revision": "40ff77e20be193fc552d",

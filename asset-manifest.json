@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/paddl-design-2/static/css/main.ffa40244.chunk.css",
-    "main.js": "/paddl-design-2/static/js/main.eb6f912b.chunk.js",
-    "main.js.map": "/paddl-design-2/static/js/main.eb6f912b.chunk.js.map",
+    "main.js": "/paddl-design-2/static/js/main.1dce3cb0.chunk.js",
+    "main.js.map": "/paddl-design-2/static/js/main.1dce3cb0.chunk.js.map",
     "runtime-main.js": "/paddl-design-2/static/js/runtime-main.eacbba43.js",
     "runtime-main.js.map": "/paddl-design-2/static/js/runtime-main.eacbba43.js.map",
     "static/js/2.20aacc20.chunk.js": "/paddl-design-2/static/js/2.20aacc20.chunk.js",
     "static/js/2.20aacc20.chunk.js.map": "/paddl-design-2/static/js/2.20aacc20.chunk.js.map",
     "index.html": "/paddl-design-2/index.html",
-    "precache-manifest.0f6741396e399512319fe90463f9711c.js": "/paddl-design-2/precache-manifest.0f6741396e399512319fe90463f9711c.js",
+    "precache-manifest.6d2f2e1eaf7c3c58e261308b0bfc0eac.js": "/paddl-design-2/precache-manifest.6d2f2e1eaf7c3c58e261308b0bfc0eac.js",
     "service-worker.js": "/paddl-design-2/service-worker.js",
     "static/css/main.ffa40244.chunk.css.map": "/paddl-design-2/static/css/main.ffa40244.chunk.css.map",
     "static/js/2.20aacc20.chunk.js.LICENSE.txt": "/paddl-design-2/static/js/2.20aacc20.chunk.js.LICENSE.txt",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.eacbba43.js",
     "static/js/2.20aacc20.chunk.js",
     "static/css/main.ffa40244.chunk.css",
-    "static/js/main.eb6f912b.chunk.js"
+    "static/js/main.1dce3cb0.chunk.js"
   ]
 }
