@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/paddl-design-2/precache-manifest.4306cb344b16ead97548ff1bc5404e74.js"
+  "/paddl-design-2/precache-manifest.0f6741396e399512319fe90463f9711c.js"
 );
 
 self.addEventListener('message', (event) => {
